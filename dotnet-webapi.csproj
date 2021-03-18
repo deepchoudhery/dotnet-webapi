@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
-    <UserSecretsId>aspnet-dotnet_webapi-42E77EBD-0BCB-4981-8ABB-B6E3EC7F4DEC</UserSecretsId>
+    <UserSecretsId>aspnet-dotnet_webapi-3CE441D2-D699-40DF-A59F-6009F719E74C</UserSecretsId>
     <RootNamespace>dotnet_webapi</RootNamespace>
   </PropertyGroup>
 
@@ -10,6 +10,7 @@
     <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.0-preview.2.21154.6" />
     <PackageReference Include="Microsoft.AspNetCore.Authentication.OpenIdConnect" Version="6.0.0-preview.2.21154.6" />
     <PackageReference Include="Microsoft.Identity.Web" Version="1.1.0"/>
+    <PackageReference Include="Microsoft.Identity.Web.MicrosoftGraph" Version="1.1.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
   </ItemGroup>
 
